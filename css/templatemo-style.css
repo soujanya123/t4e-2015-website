@@ -328,11 +328,11 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   }
 
   .logo img {
-    padding: 1px 0;
-     -moz-transform: scale(0.7);
+    padding: 21px 0;
+/*     -moz-transform: scale(0.7);
    -webkit-transform: scale(0.9);
    -o-transform: scale(0.9);
-   transform: scale(0.9); 
+   transform: scale(0.9); */
   }
   .top-header .logo span {
     display: none;
