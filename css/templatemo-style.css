@@ -1992,6 +1992,7 @@ ul.archive-list li h3 a:hover {
 }
 
 .name{
+  color:#f69730;
   display:block;
   text-align: left;
   /*float:left; */
