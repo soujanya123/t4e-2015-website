@@ -280,8 +280,8 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 }
 
 .logo {
-  padding: 21px 0 21px 60px;
-  /*background-color: #A37ACC;*/
+  padding: 18px 0 17px 60px;
+/*  background-color: #A37ACC;*/
   
 }
 
@@ -292,9 +292,10 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
    display:inline-block;
 /*  vertical-align: middle;*/
 }
-.logo span{
+.logo span{    
+  font-size: 1.3em;
   float:left;
-  padding: 53px 0 0 10px;
+  padding: 48px 0 0 10px;
 /*  background-color: #B8E68A;*/
 }
 
@@ -354,7 +355,8 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   font-style: normal;
   color: #f69730;
 }
-.top-header .logo span {
+.top-header .logo span {    
+  font-size: 1.3em;
   margin-left: 10px;
 }
 .top-header .social-top {
@@ -423,7 +425,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 }
 .main-header .menu-wrapper ul li {
   display: inline;
-  margin-left: 30px;
+  margin-left: 20px;
   position: relative;
 }
 .main-header .menu-wrapper ul li:after {
@@ -771,7 +773,7 @@ margin-bottom: 2px;
   color: #333333;
   /*text-transform: uppercase;*/
   font-weight: 300;
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 0px;
 }
 
@@ -780,16 +782,20 @@ margin-bottom: 2px;
   font-size: 1.4em;
   font-weight: 300;
   position: relative;
-  left: 43%;
+/*  left: 43%;*/
   color: #333333;
+  display: block;
+  clear: both;
+  float: left;
 } 
 
 .slider-caption div .place{
   margin-bottom: 20px;
-  font-size: 1.7em;
+  font-size: 1.4em;
   font-weight: 300;
   position: relative;
-  left: 40%;
+  float: left;
+  left: 0;  
   color: #333333;  
 }
 
