@@ -374,7 +374,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 }
 @media screen and (max-width: 768px) {
   .top-header .social-top {
-    padding: 20px 20px 20px 20px;
+    padding: 40px 20px 40px 20px;
     text-align: center;
   }
 }
@@ -736,6 +736,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 .slider-caption .inner-content {
   width: 50%;
   margin: 0 5% 0 45%;
+  /*background-color: #B8E68A;*/
 }
 
 /*.slider-caption {
@@ -757,7 +758,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 /*text-transform: uppercase;*/
 font-weight: 300;
 font-size: 1.5em;
-margin-bottom: 2px;
+margin: 10px 0 10px 0;
 }
 .sup-first{
   font-size: 0.7em;
@@ -778,7 +779,7 @@ margin-bottom: 2px;
 }
 
 .slider-caption div .date{
-  margin-bottom: 15px;
+  margin:10px 0 20px 0;
   font-size: 1.4em;
   font-weight: 300;
   position: relative;
@@ -790,7 +791,7 @@ margin-bottom: 2px;
 } 
 
 .slider-caption div .place{
-  margin-bottom: 20px;
+  margin:10px 0 20px 0;
   font-size: 1.4em;
   font-weight: 300;
   position: relative;
@@ -808,6 +809,7 @@ margin-bottom: 2px;
 /*  text-transform: uppercase;
   font-weight: 700;*/
   display: inline-block;
+  margin:5px 0 0 0;
 }
 
 .slider-caption div .main-btn span{
@@ -833,40 +835,45 @@ margin-bottom: 2px;
 
   .slider-caption {
     width: 100%;
-    top: 43%;
+    top: 48%;
   }
 
   .slider-caption .inner-content {
-    width: 50%;
-    margin: 0 1% 0 49%;
+    float:right;
+    width: 58%;
+    margin: 0 1% 0 41%;
+  /*  background-color: #B8E68A*/
   }
 
   .slider-caption div .first {
   font-size: 1.2em;
   font-weight: 400;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   }
 
   .slider-caption div .second{
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-top:5px;
+    margin-bottom: 5px;
   }
 
-  .slider-caption div .date{
-  margin-bottom: 15px;
-  font-size: 1.3em;
-  font-weight: 500;
+.slider-caption div .date{
+  font-size: 1.4em;
+  font-weight: 300;
+  float: left;
+  margin:20px 0 30px 0;
 } 
 
 .slider-caption div .place{
-  margin-bottom: 20px;
+  margin: 20px 0 30px 0;
   font-size: 1.4em;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .slider-caption div .main-btn {
   font-size: 1.1em;
+  margin: 20px 0;
 }
 
 .slider-caption div .main-btn span{
@@ -880,41 +887,42 @@ margin-bottom: 2px;
 
   .slider-caption {
     width: 100%;
-    top: 37%;
+    top: 33%;
   }
 
   .slider-caption .inner-content {
-    width: 60%;
-    margin: 0 4% 0 36%;
-    text-align: right;
+    width: 68%;
+    margin: 0 4% 0 28%;
+    text-align: left;
+/*    background-color: #FFAD85;*/
   }
 
   .slider-caption div .first {
   font-size: 1em;
   font-weight: 500;
-  margin-bottom: 2px;
+  margin: 5px 0 15px 0;
 
   }
 
   .slider-caption div .second{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin:10px 0 10px 0;
   /*  text-align:right;*/
   }
 
-  .slider-caption div .date{
-  margin-bottom: 20px;
-  font-size: 1em;
-  font-weight: 700;
-  left: 0;
+.slider-caption div .date{
+  font-size: 0.9em;
+  font-weight: 600;
+  float: left;
+  margin:10px 0 20px 0;
 } 
 
 .slider-caption div .place{
-  margin-bottom: 20px;
-  font-size: 1em;
-  font-weight: 700;
-  left: 0;
+  margin: 10px 0 20px 0;
+  font-size: 0.9em;
+  float: left;
+  font-weight: 600;
 }
 
 /*.slider-caption div .main-btn {
@@ -1973,6 +1981,31 @@ ul.archive-list li h3 a:hover {
     margin-bottom: 10px;
   display:inline-block;
    vertical-align: middle;
+}
+
+.prof-div p{
+  margin:0;
+}
+
+.prof-div h3{
+
+}
+
+.name{
+  display:block;
+  text-align: left;
+  /*float:left; */
+  padding: 0 10px
+}
+
+#content > div > p { 
+    display: none;
+
+}
+
+.expose, 
+.showall { 
+/*    margin: 10px; */
 }
 
 .center-block {
